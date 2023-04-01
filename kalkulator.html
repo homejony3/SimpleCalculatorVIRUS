@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="kalkulator.css">
+        <title>Kalkulator</title>
+    </head>
+    <body>
+        <div class="banner-left">Calculator</div>
+        <div class="banner-right">Calculator</div>
+        <h1 class="naslov">Simple calculator</h1>
+        <form>
+            <div class="inputData">
+                <input id="a" type="text" name="prvi_broj" placeholder="First number">
+                <input id="b" type="text" name="drugi_broj" placeholder="Second number">
+            </div>
+            <div class="selectControl">
+                <select id="operator" name="operacija" class="operacija">
+                    <option id="add" value="add">Addition</option>
+                    <option id="subtract" value="subtract">Subtraction</option>
+                    <option id="multiply" value="multiply">Multiplication</option>
+                    <option id="divide" value="divide">Division</option>
+                </select>
+            </div>
+            <div>
+                <div onClick="calculate()" class="calculate">Calculate</div>
+                <div class="clear" onClick="clearInput()">C</div>
+            </div>
+            <div id="result" class="result">0</div>
+        </form>
+        <div class="avtor">
+            Avtor: Matic Jelenc <br>
+            <a href="https://www.linkedin.com/in/matic-jelenc-5a9453243/" class="linkedin">LinkedIn</a> <br>
+            <img src="logo.png" alt="logo" width="30" height="25"> <br>
+            <a href="viri.html" class="viri">Viri</a>
+        </div>
+        <audio id="muska" src="music.mp3"></audio>
+        <script src="kalkulator.js"></script>
+    </body>
+</html>

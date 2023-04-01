@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(104, 0, 148);
+    padding: 1em;
+    padding-bottom: 20em;
+}
+
+form{
+    background-color: rgb(135, 39, 177);
+    width: 300px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+input{
+    background-color: rgb(231, 172, 61);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+.selectControl{
+    background-color: rgb(224, 146, 0);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+.operacija{
+    background-color: rgb(231, 172, 61);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+.inputData{
+    background-color: rgb(224, 146, 0);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+::placeholder{
+    color: rgb(104, 0, 148);
+}
+
+.calculate{
+    background-color: rgb(224, 146, 0);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+    display: inline-block;
+    width: 200px;
+}
+
+.clear{
+    background-color: rgb(224, 146, 0);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+    display: inline-block;
+}
+
+.naslov{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(224, 146, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result{
+    background-color: rgb(224, 146, 0);
+    color: rgb(104, 0, 148);
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(224, 146, 0, 0.5);
+}
+
+.avtor{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(224, 146, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linkedin{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(224, 146, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.banner-left, .banner-right {
+    font-family: 'Roboto', sans-serif;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 10rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgb(104, 0, 148);
+    color: rgb(231, 172, 61);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.banner-left {
+    left: 0;
+}
+
+.banner-right {
+    right: 0;
+}
+
+.viri{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(224, 146, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-left, .banner-right {
+        display: none;
+    }
+}
